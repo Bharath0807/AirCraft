@@ -1,11 +1,11 @@
 package com.example.aircraft;
 
-import com.example.aircraft.service.impl.AirCraftService;
+import com.example.aircraft.service.impl.MainService;
 
 public class MainApplication {
 
 	public static void main(String[] args) throws Exception{
-		AirCraftService fileUtils = new AirCraftService();
-		fileUtils.allocate("input.xlsx");
+		MainService fileUtils = new MainService();
+		fileUtils.getDiscountedFare("input.xlsx");
 	}
 }

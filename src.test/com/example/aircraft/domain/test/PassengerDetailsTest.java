@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import com.example.aircraft.domain.PassengerDetails;
-import com.example.aircraft.utils.Validator;
+import com.example.aircraft.utils.DataValidator;
 
 public class PassengerDetailsTest {
 
